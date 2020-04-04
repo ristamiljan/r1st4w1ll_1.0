@@ -1,0 +1,12 @@
+{
+    "name": "rista/plain-php",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Controllers\\": "app/Http/Controllers",
+            "Users\\": "models/",
+            "Routes\\": "routes/",
+            "Connections\\": "database"
+    	}
+    }
+}
